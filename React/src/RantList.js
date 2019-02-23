@@ -3,6 +3,7 @@ import React, { Component } from "react";
 export default class RantList extends Component {
   render() {
     return (
+      
       <div className="post-list">
         <article className="post">
           <div className="post__inner">

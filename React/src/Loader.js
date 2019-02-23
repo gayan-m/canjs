@@ -8,10 +8,6 @@ class Loader extends React.Component {
         this.state = {isLoading : props.isLoading}
     }
     
-    /* async componentDidMount(){
-        const { match: { params } } = this.props;
-    }
- */
     render(){
         const isLoading = this.state.isLoading;
         if (isLoading === true) {
