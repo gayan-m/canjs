@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import {BrowserRouter} from 'react-router-dom';
 
-import "./styles.css";
+import "./app.css";
 
 function App() {
   return (
@@ -12,4 +13,7 @@ function App() {
 }
 
 const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+ReactDOM.render(
+  <App />
+, rootElement);
+
