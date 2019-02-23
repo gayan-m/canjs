@@ -7,6 +7,7 @@ import Header from "./Header";
 import Loader from "./Loader";
 import RantList from "./RantList";
 import RantDetails from "./RantDetails";
+import Login from "./Login";
 
 class App extends React.Component {
   render() {
@@ -21,6 +22,7 @@ class App extends React.Component {
             />
             <Route exact path="/" component={RantList} />
             <Route exact path="/rant/:rant_id" component={RantDetails} />
+            <Route exact path="/login" component={Login} />
           </div>
         </section>
       </div>
