@@ -5,9 +5,9 @@ export default class Login extends Component {
         return(
             <div className="popup popup--open">
                 <div className="popup__header">
-                    <div title="Close" className="close layout--center">
+                   {/*  <a href="/"> */}<div title="Close" onClick={this.props.closePopup} className="close layout--center">
                         X
-                    </div>
+                    </div>{/* </a> */}
                 </div>
                 <div className="popup__body layout--center">
                     <div className="popup__body-inner">
